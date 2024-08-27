@@ -16,7 +16,7 @@ Hierarchical Risk Parity (HRP) is the idea of an algorithm that can automaticall
 * Returns and measures are in Daily basis.
 
 ## How does it works (Wombo_combo.py)
-If the aim of the utilization is just a pratic sense of what could do a management algorithm into the market the right way to use it is working with _Wombo_combo.py_ otherwise we can try some theoretical ways using _HRP.py_ and _Montecarlo.py_
+If the aim of the utilization is just a pratical sense of what could do a management algorithm into the market the right way to use it is working with _Wombo_combo.py_ otherwise we can try some theoretical ways using _HRP.py_ and _Montecarlo.py_
 
 After we set up all the variables described before the algo start working, it takes few seconds, the longest part is downloading data from API.
 * First of all the algo gives IVP composition, and then HRP composition in terms of % weight over the total budget. About the HRP output there's some easy measures like Standard Deviation, Return and Sharpe Ratio. These measures are on daily basis.
